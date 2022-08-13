@@ -1,3 +1,39 @@
-code{
+code {
     white-space: pre-wrap;
+}
+
+#sections {
+    margin-left: 30%;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: fixed;
+}
+
+.nav-link{
+    border: 1px solid black;
+    width:80%;
+}
+
+header{
+    font-size: larger;
+    font-weight:800;
+}
+
+@media (max-width: 767px) {
+    #navbar {
+        position: static;
+    }
+
+    #sections {
+        margin: 0;
+    }
+
+    #navbar {
+        width: 100%;
+        align-items: center;
+    }
 }
