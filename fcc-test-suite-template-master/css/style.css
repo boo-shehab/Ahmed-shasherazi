@@ -1,6 +1,11 @@
 code {
     white-space: pre-wrap;
 }
+.code-container{
+    background-color: #e5e4e4;
+    border-radius: 10px;
+    padding: 10px;
+}
 
 #sections {
     margin-left: 30%;
@@ -19,8 +24,21 @@ code {
 }
 
 header{
-    font-size: larger;
+    font-size: 30px;
     font-weight:800;
+}
+#navbar a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 5px;
+}
+main section p{
+    padding: 0 0 10px 15px;
+    font-size: 18px;
+}
+main section ul li{
+    margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
